@@ -6,7 +6,7 @@
     <body>
         <div class="container">
             <h1>Application Form</h1>
-            <form onsubmit="app();">
+            <form action="http://127.0.0.1:8000/submit/" method="post">
                 <lable for="fname">First name:</lable> 
                 <input type="text" id="fname" name="fname" placeholder="Enter your first name" required><br><br>
                 <lable for="lname">Last name:</lable>
@@ -17,5 +17,5 @@
             </form>
         </div>
     </body>
-    <script src="main.js"></script>
+    <script src="script.js"></script>
 </html>
